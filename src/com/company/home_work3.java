@@ -2,31 +2,34 @@ package com.company;
 
 import java.util.Random;
 
-public class Main {
-
+public class home_work3 {
     public static void main(String[] args) {
-//  від 0 до 50
-        /*var x = 'w';
-        var i = 0;
-        for(i = 0;i<=50;i++){
-            x = (char)i;
-            System.out.println(x+" = "+i);
-            //test
+        var random_number = new Random().nextInt(2);
+        var chr = '8';
+        var a_cat = 0;
+        var answer =0.0;
+        var dog = 0;
+        if(random_number == 0){
+            chr = '-';
+        }else if(random_number == 1){
+            chr = '+';
+        }else if(random_number == 2){
+            chr = '*';
         }
-        var a = 'q';
-        for (var i = 100;i >= 0;i--){
-            a = (char)i;
-            System.out.println(a+" = "+i);
+        if(chr=='-'){
+            a_cat = 6;
+            dog = 5;
+        }else if(chr=='+'){
+            a_cat = 35;
+            dog = 23;
+        }else if(chr=='*'){
+            a_cat = 8;
+            dog = 4;
         }
-        */
-        /*
-        var a = 2.5;
-        var b = 1;
-        var z = ((a+11)*(b+b)/12);
-        System.out.println(z);
-         */
-
-        var x = 0;
+        answer = a_cat+11/12*(dog+dog)/12 ;
+        System.out.println(answer);
+        System.out.println(a_cat+" "+dog);
+        /*var x = 0;
         var znak = "";
         if (znak == "-"){
             for(var r = 1;r<=100;r++){
@@ -80,6 +83,6 @@ public class Main {
             }
 
         }
-
+        */
     }
 }
