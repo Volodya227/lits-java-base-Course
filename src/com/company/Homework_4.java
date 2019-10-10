@@ -3,7 +3,7 @@ package com.company;
 public class Homework_4 {
     public static void main(String[] args) {
 
-
+//
         var numbers = new Array(8);
         numbers.spam(100);
         numbers.print();
