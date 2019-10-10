@@ -14,6 +14,8 @@ public class Homework_4 {
         numbers.print();
         numbers.r("not even",5);
         numbers.print();
+        numbers.spam(1000);
+        numbers.print();
 
 
     }
