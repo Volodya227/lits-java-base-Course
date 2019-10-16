@@ -1,10 +1,10 @@
 package com.company;
 
 public class Figure {
-    public void parametr(){
-
+    public double parametr(){
+        return 0;
     }
-    public void area(){
-
+    public double area(){
+        return 0;
     }
 }
