@@ -6,8 +6,10 @@ import java.util.regex.Pattern;
 public class Main {
     public static void main(String[] args){
         a("+38(044)-228-32-27");
+        a("+38(374) 294 44 21");
+        a("+38(205)-395-67-32");
         a("+38(044)-228-32-27");
-        a("+38(044)-228-32-27");
+        a("+38(194)-186 10-22");
         a("044-228-32-27");
         a("+38044-228-32-27");
         a("+38068-237-25-44");
@@ -73,7 +75,7 @@ public class Main {
     }
     static void a(String phoneNumber) {
 
-        Pattern pattern = Pattern.compile("([+38]{0,3})([(]?+)([0])([0-9]{2})([)]?+)([-]?+)([0-9]{3})([-]?+)([0-9]{2})([-]?+)([0-9]{2})");
+        Pattern pattern = Pattern.compile("([+38]{0,3})([(]?+)([0])([0-9]{2})([)]?+)([ ]?+)([-]?+)([0-9]{3})([ ]?+)([-]?+)([0-9]{2})([ ]?+)([-]?+)([0-9]{2})");
         Matcher matcher = pattern.matcher(phoneNumber);
 
         if (matcher.matches()) {
