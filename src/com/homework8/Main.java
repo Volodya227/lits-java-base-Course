@@ -20,6 +20,7 @@ public class Main {
         c("Person class Vova huker");
         d("azaaza");
         d("nun");
+        d("hello world");
         d("nune");
 
 
