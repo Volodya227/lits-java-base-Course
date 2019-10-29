@@ -26,8 +26,6 @@ public class Main {
         d("nune");
 
 
-
-
     }
     static void d(String str){
         char[] strToArray = str.toCharArray();
