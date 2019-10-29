@@ -75,7 +75,7 @@ public class Main {
     }
     static void a(String phoneNumber) {
 
-        Pattern pattern = Pattern.compile("([+38]{0,3})([(]?+)([0])([0-9]{2})([)]?+)([ ]?+)([-]?+)([0-9]{3})([ ]?+)([-]?+)([0-9]{2})([ ]?+)([-]?+)([0-9]{2})");
+        Pattern pattern = Pattern.compile("([+38]*)([(]*)([0-9]{3})([)]*)([ ]*)([-]*)([0-9]{3})([ ]*)([-]*)([0-9]{2})([ ]*)([-]*)([0-9]{2})");
         Matcher matcher = pattern.matcher(phoneNumber);
 
         if (matcher.matches()) {
