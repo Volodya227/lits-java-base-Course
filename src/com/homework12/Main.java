@@ -6,7 +6,7 @@ public class Main {
         System.out.println(cola.whatInside());
         Bottle pepsi = new Bottle(Liquid.PEPSI);
         System.out.println(pepsi.whatInside());
-        //stackOverflow();
+        stackOverflow();
     }
 
     static void stackOverflow() {
