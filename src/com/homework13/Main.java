@@ -2,7 +2,7 @@ package com.homework13;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println(money(200));
+        System.out.println(money(543));
     }
 
     static char[] append(char[] array, char a) {
